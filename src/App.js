@@ -38,7 +38,7 @@ const App = () => {
       <header className="App-header">
       <h1>Movie Project</h1>
       <input 
-      placeholder="Cari film yang tersedia" 
+      placeholder="Find your movie's here..." 
       className="Movie-search"
       onChange={({target}) => search (target.value)}
       />

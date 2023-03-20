@@ -19,11 +19,12 @@
 
 .Movie-container{
   flex-wrap: wrap;
-  width: 100%; 
+  width: 90%; 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  
 }
 
 .Movie-wrapper{
@@ -34,7 +35,8 @@
 }
 
 .Movie-search{
-  height: 48px;
+  width: 149vh;
+  height: 5vh;
   font-size: 24px;
   margin-bottom: 32px;
   padding: 16px;
@@ -45,22 +47,29 @@
   height: 60px;
   margin-top: 26px;
   font-weight: bold;
+  font-size: 1em;
 }
 
 
 .Movie-date{
   margin-top: 26px;
-  font-style: italic;
+  font-size: 0.9em;
 }
 
 .Movie-rate{
-  color: red;
+  color: #282c34;
   margin-bottom: 24px;
   font-weight: bold;
   font-size: 1.2em;
-  text-decoration: underline;
 }
 
 .Movie-image{
+  width: 100%;
+}
 
+@media only screen and (max-width: 600px){
+  .Movie-search{
+    width: 47vh;
+    height: 3vh;
+  }
 }
